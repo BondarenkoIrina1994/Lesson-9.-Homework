@@ -13,7 +13,7 @@ int CheckingForCorrectnes(string str)
             Console.WriteLine("Некорректное значение. Для корректной работы программы введите натуральное число!!!");
         else
         {
-            if (number < 0)
+            if (number <= 0)
                 Console.WriteLine("Необходимо ввести натуральное число!!!");
             else
                 return number;
